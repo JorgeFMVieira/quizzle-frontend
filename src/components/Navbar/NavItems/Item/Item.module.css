@@ -1,0 +1,35 @@
+.item{
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+    margin: 0 15px;
+}
+
+.item button{
+    background-color: #7249CB;
+    font-family: 'Itim', cursive;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+
+.item span{
+    color: #683EC1;
+    font-size: 1.2em;
+    padding: 10px 15px;
+    transition: 0.3s all ease-in-out;
+}
+
+.item:hover button{
+    background-color: #683EC1;
+}
+
+.item:hover span{
+    border-radius: 5px;
+    font-size: 1.2em;
+    background-color: rgba(114, 73, 203, 0.1);
+}

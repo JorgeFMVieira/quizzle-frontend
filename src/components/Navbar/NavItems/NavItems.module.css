@@ -1,0 +1,7 @@
+.navitems{
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
